@@ -6,7 +6,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: qW1209pO
+      POSTGRES_PASSWORD: passwordhere
       PGDATA: /data/postgres
     volumes:
        - postgres:/data/postgres
@@ -21,7 +21,7 @@ services:
     image: dpage/pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: nandhakumargdr@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: qW1209pO
+      PGADMIN_DEFAULT_PASSWORD: passwordhere
       PGADMIN_CONFIG_SERVER_MODE: 'False'
     volumes:
        - pgadmin:/var/lib/pgadmin
