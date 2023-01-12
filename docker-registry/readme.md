@@ -4,4 +4,4 @@ https://gabrieltanner.org/blog/docker-registry
 https://github.com/Joxit/docker-registry-ui/tree/main/examples/ui-as-proxy/
 
 ### Create htpasswd
-htpasswd -Bc registry.passwd USER_NAME
+htpasswd -Bc htpasswd USER_NAME
